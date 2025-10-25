@@ -4,33 +4,35 @@ Overview
 This project implements a Collaborative Task Management System in both Java and JavaScript (Node.js).
 It is a command-line interface (CLI) application that allows multiple users to:
 
-Create and assign tasks
+- Create and assign tasks
 
-Track task completion
+- Track task completion
 
-Categorize and prioritize work
+- Categorize and prioritize work
 
-View tasks by user or category
+- View tasks by user or category
 
 The goal of the project is to demonstrate object-oriented design, modular programming, and data persistence in two different programming languages.
 
 Core Features
 
-Create users
-Create tasks (title, description, category, priority)
-Assign tasks to users
-Mark tasks as complete
-List all tasks
-Filter tasks by user or category
-Help command to list available commands
+- Create users
+- Create tasks (title, description, category, priority)
+- Assign tasks to users
+- Mark tasks as complete
+- List all tasks
+- Filter tasks by user or category
+- Help command to list available commands
 
 Java Implementation
+
 Files
-TaskManager.java
-Task.java
-User.java
-MainApp.java
-StorageManager.java
+
+- TaskManager.java
+- Task.java
+- User.java
+- MainApp.java
+- StorageManager.java
 
 How It Works
 
@@ -58,22 +60,23 @@ java Main
 
 Use the following commands:
 
-create-user <username>
-create-task <title>|<description>|<category>|<priority>
-list
-list-user <username>
-list-category <category>
-assign <taskId> <username>
-complete <taskId>
-help
-exit
+- create-user <username>
+- create-task <title>|<description>|<category>|<priority>
+- list
+- list-user <username>
+- list-category <category>
+- assign <taskId> <username>
+- complete <taskId>
+- help
+- exit
 
 JavaScript Implementation (Node.js)
+
 Files
-app.mjs
-TaskManager.js
-storage.js
-package.json
+- app.mjs
+- TaskManager.js
+- storage.js
+- package.json
 
 How It Works
 
@@ -120,13 +123,15 @@ Start the program:
 npm start
 
 Commands (for both versions)
-Command	Description
-create-user <username>	Creates a new user
-create-task <title>|<description>|<category>|<priority>	Creates a new task
-list	Lists all tasks
-list-user <username>	Lists all tasks assigned to a specific user
-list-category <category>	Lists tasks in a given category
-assign <taskId> <username>	Assigns a task to a user
-complete <taskId>	Marks a task as completed
-help	Shows available commands
-exit	Exits the application
+
+Command	                                                         Description
+
+- create-user <username>	Creates a new user
+- create-task <title>|<description>|<category>|<priority>	        Creates a new task
+- list	                                                           Lists all tasks
+- list-user <username>	                                           Lists all tasks assigned to a specific user
+- list-category <category>	                                       Lists tasks in a given category
+- assign <taskId> <username>	                                     Assigns a task to a user
+- complete <taskId>	                                              Marks a task as completed
+- help	                                                           Shows available commands
+- exit	                                                           Exits the application
