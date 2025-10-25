@@ -106,15 +106,25 @@ npm install inquirer
 Ensure your package.json contains:
 
 {
+ 
   "name": "collab-todo",
+ 
   "version": "1.0.0",
+ 
   "type": "module",
+ 
   "scripts": {
+  
     "start": "node app.mjs"
+ 
   },
+  
   "dependencies": {
+ 
     "inquirer": "^9.2.7"
+ 
   }
+
 }
 
 
