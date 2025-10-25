@@ -124,14 +124,14 @@ npm start
 
 Commands (for both versions)
 
-Command	                                                         Description
+Command	                                                        → Description
 
 - create-user <username>	Creates a new user
-- create-task <title>|<description>|<category>|<priority>	        Creates a new task
-- list	                                                           Lists all tasks
-- list-user <username>	                                           Lists all tasks assigned to a specific user
-- list-category <category>	                                       Lists tasks in a given category
-- assign <taskId> <username>	                                     Assigns a task to a user
-- complete <taskId>	                                              Marks a task as completed
-- help	                                                           Shows available commands
-- exit	                                                           Exits the application
+- create-task <title>|<description>|<category>|<priority>	       → Creates a new task
+- list	                                                          → Lists all tasks
+- list-user <username>	                                          → Lists all tasks assigned to a specific user
+- list-category <category>	                                      → Lists tasks in a given category
+- assign <taskId> <username>	                                    → Assigns a task to a user
+- complete <taskId>	                                             → Marks a task as completed
+- help	                                                          → Shows available commands
+- exit	                                                          → Exits the application
